@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Todas as Tags HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="credits">
+    Feito por Alexandre, Wendel e <span class="robetinho">🌺-bruno ROBERTINHOOOOO-🌺</span>
+  </div>
+
+  <h1>Todas as Tags HTML</h1>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Pesquisar tag...">
+    <select id="categoryFilter">
+      <option value="all">Todas as Categorias</option>
+      <option value="estrutura">Estrutura Básica</option>
+      <option value="texto">Texto e Formatação</option>
+      <option value="semantica">Estrutura Semântica</option>
+      <option value="listas">Listas</option>
+      <option value="midia">Mídia</option>
+      <option value="tabelas">Tabelas</option>
+      <option value="formularios">Formulários</option>
+      <option value="obsoletas">Obsoletas</option>
+    </select>
+  </div>
+
+  <div class="table-wrap">
+    <table id="tagsTable">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Uso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Estrutura Básica -->
+        <tr class="categoria estrutura"><td colspan="2">Estrutura Básica</td></tr>
+        <tr class="estrutura"><td>&lt;!DOCTYPE&gt;</td><td>Define o tipo de documento (HTML5).</td></tr>
+        <tr class="estrutura"><td>&lt;html&gt;</td><td>Elemento raiz do documento.</td></tr>
+        <tr class="estrutura"><td>&lt;head&gt;</td><td>Contém metadados.</td></tr>
+        <tr class="estrutura"><td>&lt;title&gt;</td><td>Define o título da aba.</td></tr>
+        <tr class="estrutura"><td>&lt;base&gt;</td><td>Define URL base.</td></tr>
+        <tr class="estrutura"><td>&lt;link&gt;</td><td>Importa CSS ou recursos externos.</td></tr>
+        <tr class="estrutura"><td>&lt;meta&gt;</td><td>Metadados da página.</td></tr>
+        <tr class="estrutura"><td>&lt;style&gt;</td><td>Estilo CSS interno.</td></tr>
+        <tr class="estrutura"><td>&lt;script&gt;</td><td>Scripts JavaScript.</td></tr>
+        <tr class="estrutura"><td>&lt;noscript&gt;</td><td>Conteúdo alternativo sem JS.</td></tr>
+        <tr class="estrutura"><td>&lt;body&gt;</td><td>Conteúdo visível.</td></tr>
+
+        <!-- Texto -->
+        <tr class="categoria texto"><td colspan="2">Texto e Formatação</td></tr>
+        <tr class="texto"><td>&lt;h1&gt; a &lt;h6&gt;</td><td>Cabeçalhos de diferentes níveis.</td></tr>
+        <tr class="texto"><td>&lt;p&gt;</td><td>Parágrafo.</td></tr>
+        <tr class="texto"><td>&lt;br&gt;</td><td>Quebra de linha.</td></tr>
+        <tr class="texto"><td>&lt;hr&gt;</td><td>Linha horizontal.</td></tr>
+        <tr class="texto"><td>&lt;abbr&gt;</td><td>Abreviação.</td></tr>
+        <tr class="texto"><td>&lt;address&gt;</td><td>Endereço.</td></tr>
+        <tr class="texto"><td>&lt;b&gt;</td><td>Negrito (não semântico).</td></tr>
+        <tr class="texto"><td>&lt;strong&gt;</td><td>Negrito com ênfase semântica.</td></tr>
+        <tr class="texto"><td>&lt;i&gt;</td><td>Itálico (não semântico).</td></tr>
+        <tr class="texto"><td>&lt;em&gt;</td><td>Ênfase semântica.</td></tr>
+        <tr class="texto"><td>&lt;mark&gt;</td><td>Texto destacado.</td></tr>
+        <tr class="texto"><td>&lt;small&gt;</td><td>Texto menor.</td></tr>
+        <tr class="texto"><td>&lt;sub&gt;</td><td>Subscrito.</td></tr>
+        <tr class="texto"><td>&lt;sup&gt;</td><td>Sobrescrito.</td></tr>
+        <tr class="texto"><td>&lt;u&gt;</td><td>Sublinhado.</td></tr>
+        <tr class="texto"><td>&lt;blockquote&gt;</td><td>Citação em bloco.</td></tr>
+        <tr class="texto"><td>&lt;q&gt;</td><td>Citação curta.</td></tr>
+        <tr class="texto"><td>&lt;cite&gt;</td><td>Referência de obra.</td></tr>
+        <tr class="texto"><td>&lt;code&gt;</td><td>Código de programação.</td></tr>
+        <tr class="texto"><td>&lt;pre&gt;</td><td>Texto pré-formatado.</td></tr>
+        <tr class="texto"><td>&lt;kbd&gt;</td><td>Entrada do teclado.</td></tr>
+        <tr class="texto"><td>&lt;samp&gt;</td><td>Saída de programa.</td></tr>
+        <tr class="texto"><td>&lt;var&gt;</td><td>Variável.</td></tr>
+        <tr class="texto"><td>&lt;span&gt;</td><td>Container inline.</td></tr>
+        <tr class="texto"><td>&lt;div&gt;</td><td>Container de bloco.</td></tr>
+
+        <!-- Estrutura Semântica -->
+        <tr class="categoria semantica"><td colspan="2">Estrutura Semântica</td></tr>
+        <tr class="semantica"><td>&lt;header&gt;</td><td>Cabeçalho.</td></tr>
+        <tr class="semantica"><td>&lt;footer&gt;</td><td>Rodapé.</td></tr>
+        <tr class="semantica"><td>&lt;main&gt;</td><td>Conteúdo principal.</td></tr>
+        <tr class="semantica"><td>&lt;section&gt;</td><td>Seção de conteúdo.</td></tr>
+        <tr class="semantica"><td>&lt;article&gt;</td><td>Artigo independente.</td></tr>
+        <tr class="semantica"><td>&lt;aside&gt;</td><td>Conteúdo lateral.</td></tr>
+        <tr class="semantica"><td>&lt;nav&gt;</td><td>Navegação.</td></tr>
+        <tr class="semantica"><td>&lt;figure&gt;</td><td>Figura.</td></tr>
+        <tr class="semantica"><td>&lt;figcaption&gt;</td><td>Legenda da figura.</td></tr>
+        <tr class="semantica"><td>&lt;time&gt;</td><td>Data ou hora.</td></tr>
+        <tr class="semantica"><td>&lt;details&gt;</td><td>Conteúdo expansível.</td></tr>
+        <tr class="semantica"><td>&lt;summary&gt;</td><td>Título do details.</td></tr>
+        <tr class="semantica"><td>&lt;dialog&gt;</td><td>Caixa de diálogo.</td></tr>
+
+        <!-- Listas -->
+        <tr class="categoria listas"><td colspan="2">Listas</td></tr>
+        <tr class="listas"><td>&lt;ul&gt;</td><td>Lista não ordenada.</td></tr>
+        <tr class="listas"><td>&lt;ol&gt;</td><td>Lista ordenada.</td></tr>
+        <tr class="listas"><td>&lt;li&gt;</td><td>Item de lista.</td></tr>
+        <tr class="listas"><td>&lt;dl&gt;</td><td>Lista de definição.</td></tr>
+        <tr class="listas"><td>&lt;dt&gt;</td><td>Termo.</td></tr>
+        <tr class="listas"><td>&lt;dd&gt;</td><td>Definição.</td></tr>
+
+        <!-- Mídia -->
+        <tr class="categoria midia"><td colspan="2">Mídia</td></tr>
+        <tr class="midia"><td>&lt;img&gt;</td><td>Imagem.</td></tr>
+        <tr class="midia"><td>&lt;map&gt;</td><td>Mapa de imagem.</td></tr>
+        <tr class="midia"><td>&lt;area&gt;</td><td>Área clicável.</td></tr>
+        <tr class="midia"><td>&lt;canvas&gt;</td><td>Desenho em tela.</td></tr>
+        <tr class="midia"><td>&lt;svg&gt;</td><td>Gráfico vetorial.</td></tr>
+        <tr class="midia"><td>&lt;audio&gt;</td><td>Áudio.</td></tr>
+        <tr class="midia"><td>&lt;video&gt;</td><td>Vídeo.</td></tr>
+        <tr class="midia"><td>&lt;source&gt;</td><td>Fonte de mídia.</td></tr>
+        <tr class="midia"><td>&lt;track&gt;</td><td>Legenda.</td></tr>
+        <tr class="midia"><td>&lt;embed&gt;</td><td>Conteúdo embutido.</td></tr>
+        <tr class="midia"><td>&lt;object&gt;</td><td>Objeto externo.</td></tr>
+        <tr class="midia"><td>&lt;param&gt;</td><td>Parâmetro de objeto.</td></tr>
+        <tr class="midia"><td>&lt;iframe&gt;</td><td>Página dentro da página.</td></tr>
+        <tr class="midia"><td>&lt;picture&gt;</td><td>Imagem responsiva.</td></tr>
+
+        <!-- Tabelas -->
+        <tr class="categoria tabelas"><td colspan="2">Tabelas</td></tr>
+        <tr class="tabelas"><td>&lt;table&gt;</td><td>Tabela.</td></tr>
+        <tr class="tabelas"><td>&lt;caption&gt;</td><td>Legenda da tabela.</td></tr>
+        <tr class="tabelas"><td>&lt;thead&gt;</td><td>Cabeçalho.</td></tr>
+        <tr class="tabelas"><td>&lt;tbody&gt;</td><td>Corpo.</td></tr>
+        <tr class="tabelas"><td>&lt;tfoot&gt;</td><td>Rodapé.</td></tr>
+        <tr class="tabelas"><td>&lt;tr&gt;</td><td>Linha.</td></tr>
+        <tr class="tabelas"><td>&lt;td&gt;</td><td>Célula de dados.</td></tr>
+        <tr class="tabelas"><td>&lt;th&gt;</td><td>Célula de cabeçalho.</td></tr>
+        <tr class="tabelas"><td>&lt;col&gt;</td><td>Coluna.</td></tr>
+        <tr class="tabelas"><td>&lt;colgroup&gt;</td><td>Grupo de colunas.</td></tr>
+
+        <!-- Formulários -->
+        <tr class="categoria formularios"><td colspan="2">Formulários</td></tr>
+        <tr class="formularios"><td>&lt;form&gt;</td><td>Formulário.</td></tr>
+        <tr class="formularios"><td>&lt;input&gt;</td><td>Campo de entrada.</td></tr>
+        <tr class="formularios"><td>&lt;textarea&gt;</td><td>Área de texto.</td></tr>
+        <tr class="formularios"><td>&lt;button&gt;</td><td>Botão.</td></tr>
+        <tr class="formularios"><td>&lt;select&gt;</td><td>Menu suspenso.</td></tr>
+        <tr class="formularios"><td>&lt;option&gt;</td><td>Opção.</td></tr>
+        <tr class="formularios"><td>&lt;optgroup&gt;</td><td>Agrupa opções.</td></tr>
+        <tr class="formularios"><td>&lt;label&gt;</td><td>Rótulo.</td></tr>
+        <tr class="formularios"><td>&lt;fieldset&gt;</td><td>Agrupa campos.</td></tr>
+        <tr class="formularios"><td>&lt;legend&gt;</td><td>Legenda do fieldset.</td></tr>
+        <tr class="formularios"><td>&lt;datalist&gt;</td><td>Lista de opções.</td></tr>
+        <tr class="formularios"><td>&lt;output&gt;</td><td>Resultado.</td></tr>
+        <tr class="formularios"><td>&lt;progress&gt;</td><td>Indicador de progresso.</td></tr>
+        <tr class="formularios"><td>&lt;meter&gt;</td><td>Medidor.</td></tr>
+
+        <!-- Obsoletas -->
+        <tr class="categoria obsoletas"><td colspan="2">Obsoletas</td></tr>
+        <tr class="obsoletas"><td>&lt;acronym&gt;</td><td>Substituída por abbr.</td></tr>
+        <tr class="obsoletas"><td>&lt;applet&gt;</td><td>Java Applet.</td></tr>
+        <tr class="obsoletas"><td>&lt;basefont&gt;</td><td>Fonte base.</td></tr>
+        <tr class="obsoletas"><td>&lt;big&gt;</td><td>Texto maior.</td></tr>
+        <tr class="obsoletas"><td>&lt;blink&gt;</td><td>Texto piscante.</td></tr>
+        <tr class="obsoletas"><td>&lt;center&gt;</td><td>Centraliza conteúdo.</td></tr>
+        <tr class="obsoletas"><td>&lt;font&gt;</td><td>Define fonte.</td></tr>
+        <tr class="obsoletas"><td>&lt;marquee&gt;</td><td>Texto rolando.</td></tr>
+        <tr class="obsoletas"><td>&lt;s&gt;</td><td>Tachado.</td></tr>
+        <tr class="obsoletas"><td>&lt;strike&gt;</td><td>Tachado.</td></tr>
+        <tr class="obsoletas"><td>&lt;tt&gt;</td><td>Texto monoespaçado.</td></tr>
+        <tr class="obsoletas"><td>&lt;frame&gt;</td><td>Frame.</td></tr>
+        <tr class="obsoletas"><td>&lt;frameset&gt;</td><td>Estrutura de frames.</td></tr>
+        <tr class="obsoletas"><td>&lt;noframes&gt;</td><td>Conteúdo alternativo.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const categoryFilter = document.getElementById("categoryFilter");
+    const rows = document.querySelectorAll("#tagsTable tbody tr");
+
+    function filterTable() {
+      const search = searchInput.value.toLowerCase();
+      const category = categoryFilter.value;
+
+      rows.forEach(row => {
+        if (row.classList.contains("categoria")) {
+          row.style.display = category === "all" ? "" : (row.classList.contains(category) ? "" : "none");
+          return;
+        }
+        const text = row.textContent.toLowerCase();
+        const matchesSearch = text.includes(search);
+        const matchesCategory = category === "all" || row.classList.contains(category);
+        row.style.display = matchesSearch && matchesCategory ? "" : "none";
+      });
+    }
+
+    searchInput.addEventListener("keyup", filterTable);
+    categoryFilter.addEventListener("change", filterTable);
+  </script>
+</body>
+</html>
